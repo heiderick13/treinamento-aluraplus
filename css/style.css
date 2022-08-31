@@ -11,11 +11,31 @@ body {
 }
 
 .principal {
-    background-image: url(/img/Background.png);
+    background-image: url(../img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container__btn {
+    display: block;
+    background-color: var(--botao-azul);
+    text-decoration: none;
+    color: var(--branco-principal);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.transparente {
+    background-color: transparent;
+    border: 1px solid var(--branco-principal);
+}
+
+.container__descricao {
+    color: var(--cinza-secundario);
 }
