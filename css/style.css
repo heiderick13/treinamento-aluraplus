@@ -27,11 +27,15 @@ body {
     text-align: center;
 }
 
+.container__box-principal {
+    margin: 0 4em;
+}
+
 .container__box {
     margin: 0 6em;
 }
 
-.container__titulo {
+.container__titulo-principal {
     text-align: center;
     font-size: 28px;
     font-weight: 700;
