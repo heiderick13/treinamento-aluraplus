@@ -60,3 +60,26 @@ body {
     font-size: 12px;
     color: var(--cinza-secundario);
 }
+
+.secundario {
+    align-items: center;
+    margin: 0 6em
+}
+
+.container__titulo {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.container__texto {
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza-secundario);
+}
+
+.btn-secundario {
+    width: 40%;
+    padding-top: .8em;
+    margin-top: 1em;
+}
