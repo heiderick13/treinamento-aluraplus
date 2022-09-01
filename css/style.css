@@ -93,3 +93,28 @@ body {
     padding-top: .8em;
     margin-top: 1em;
 }
+
+.favoritos {
+    text-align: center;
+}
+
+.favoritos__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 2em;
+}
+
+.favoritos__lista {
+    list-style: none;
+}
+
+.favoritos__item {
+    display: inline-block;
+}
+
+.favoritos__item-texto {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
